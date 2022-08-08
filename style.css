@@ -70,6 +70,13 @@ header a{
     color: black;
 }
 
+footer{
+    margin-top: 50px;
+    padding-top: 1cm;
+    padding-bottom: 1cm;
+    background-color:  rgba(0, 112, 186, 0.86);
+}
+
 #hero{
     display: flex;
     align-items: center;
@@ -170,6 +177,21 @@ background-image: linear-gradient(
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+}
+
+#parrafo1{
+    margin-right: 350px;
+    margin-left: 350px;
+    align-content: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#subtitulo1{
+    margin-right: 350px;
+    margin-left: 350px;
+    align-content: center;
+    font-family: 'Noto Sans Mono', monospace;
+    font-weight: 100;
 }
 
 @media (min-width: 720px){
